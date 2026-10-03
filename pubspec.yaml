@@ -1,13 +1,15 @@
 name: cricscore
-description: Cricket scoring app
+description: CricScorer premium cricket scoring app
 publish_to: none
-version: 1.0.0+1
+version: 2.0.0+2
 environment:
   sdk: '>=3.0.0 <4.0.0'
 dependencies:
   flutter:
     sdk: flutter
   shared_preferences: ^2.2.0
+  pdf: ^3.10.0
+  printing: ^5.11.0
 flutter:
   uses-material-design: true
   
